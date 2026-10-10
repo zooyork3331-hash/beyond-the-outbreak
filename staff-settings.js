@@ -9,13 +9,13 @@ window.BTO_STAFF = {
   members: [
     {
       name: "Respawn",
-      role: "Owner / Server Administration",
+      role: "Owner / Developer",
       description: "Oversees Beyond the Outbreak, server operations, and community direction.",
       avatar: "assets/photos/respawn-avatar.png"
     },
     {
       name: "Delulu",
-      role: "Owner",
+      role: "Owner / Administrator",
       description: "Beyond the Outbreak server owner."
     },
     {
