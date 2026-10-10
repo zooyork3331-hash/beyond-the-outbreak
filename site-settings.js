@@ -8,7 +8,7 @@
 window.BTO_SETTINGS = {
   discordInvite: "",                // Full Discord invite URL
   supportLink: "",                   // Optional external support/donation page
-  deerIsleAddress: "",               // Example format: 12.34.56.78:2302
+  deerIsleAddress: "45.59.162.14:2302",               // Example format: 12.34.56.78:2302
   badlandsAddress: "",               // Leave blank until the server launches
   communityEmail: ""                 // Optional public contact email
 };
