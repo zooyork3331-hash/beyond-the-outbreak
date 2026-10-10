@@ -1,5 +1,19 @@
 [
   {
+    "id": "badlands-opening-day-2026-10-16",
+    "date": "2026-10-10",
+    "category": "Event",
+    "server": "Badlands",
+    "title": "BADLANDS GRAND OPENING — OCTOBER 16",
+    "summary": "The gates to Badlands open Friday, October 16 at 8:00 PM Eastern Time! Be there for the launch of our newest DayZ server.",
+    "content": "SURVIVORS, THE WAIT IS ALMOST OVER!\n\nBeyond the Outbreak is opening the gates to our brand-new Badlands server on Friday, October 16, 2026, at 8:00 PM Eastern Time (EDT).\n\nA new map. A new beginning. A fresh chance to carve out your place in the wasteland. Whether you are a veteran of Beyond the Outbreak or joining us for the first time, we want to see you there for opening night.\n\nThe server is scheduled to go live at 8:00 PM. Keep an eye on our Discord and Badlands server page for connection details and any launch updates.\n\nSurvive. Adapt. Overcome.\n— Beyond the Outbreak Administration",
+    "eventDate": "2026-10-16",
+    "eventTime": "8:00 PM Eastern (EDT)",
+    "location": "Badlands DayZ Server",
+    "link": "badlands.html",
+    "linkText": "Explore Badlands"
+  },
+  {
     "id": "deerisle-130-wipe-discord-2026-10-15",
     "date": "2026-10-10",
     "category": "Announcement",
@@ -48,9 +62,9 @@
     "date": "2026-10-10",
     "category": "Announcement",
     "server": "Badlands",
-    "title": "Badlands Information Coming Soon",
-    "summary": "The Badlands server page is ready for future news. No launch date has been announced here.",
-    "content": "The Badlands area of the site is reserved for future server details, separate survival tips, and announcements as plans are confirmed.\n\nWatch the News & Events page and Discord for new information.",
+    "title": "Badlands Opening Date Confirmed",
+    "summary": "The Badlands server launches Friday, October 16, 2026 at 8:00 PM Eastern Time. Opening day is officially on the calendar!",
+    "content": "The countdown to Badlands is on! Beyond the Outbreak will open its Badlands server Friday, October 16, 2026, at 8:00 PM Eastern Time (EDT).\n\nVisit the News & Events page for full opening day details and follow our Discord for updates.",
     "link": "badlands.html",
     "linkText": "Explore the Badlands page"
   }
