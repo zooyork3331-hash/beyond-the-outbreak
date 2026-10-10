@@ -62,6 +62,23 @@
       heading.after(link);
     }
   });
+  // Global Staff & Support link: becomes available on all pages without editing each HTML file.
+  if (mainNav && !mainNav.querySelector('a[href="staff.html"]')) {
+    const item = document.createElement('li');
+    const link = document.createElement('a');
+    link.className = 'nav-link'; link.href = 'staff.html'; link.textContent = 'Staff & Support';
+    if (window.location.pathname.endsWith('/staff.html')) link.setAttribute('aria-current', 'page');
+    item.appendChild(link);
+    const discordLink = mainNav.querySelector('[data-link="discord"]');
+    mainNav.insertBefore(item, discordLink ? discordLink.closest('li') : null);
+  }
+  document.querySelectorAll('.footer-grid > div').forEach(group => {
+    const heading = group.querySelector('h3');
+    if (heading && heading.textContent.trim().toUpperCase() === 'COMMUNITY' && !group.querySelector('a[href="staff.html"]')) {
+      const link = document.createElement('a'); link.href='staff.html'; link.textContent='Staff & Support';
+      heading.after(link);
+    }
+  });
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.nav-list');
   if (toggle && nav) {

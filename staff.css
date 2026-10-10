@@ -1,0 +1,63 @@
+/* Beyond the Outbreak — Staff & Support */
+.support-hero{position:relative;overflow:hidden;min-height:465px;display:flex;align-items:center;background:radial-gradient(ellipse at 82% 26%,#33462a 0,transparent 35%),radial-gradient(circle at 55% 100%,#1a2c20,transparent 40%),linear-gradient(125deg,#19291f 0,#0a100c 73%);border-bottom:1px solid var(--line)}
+.support-hero:before{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(140deg,rgba(224,242,183,.025) 0,rgba(224,242,183,.025) 1px,transparent 1px,transparent 60px)}
+.support-hero:after{content:'ASSIST';position:absolute;right:-13px;bottom:-90px;color:rgba(187,207,116,.045);font:900 clamp(180px,27vw,400px)/.8 'Barlow Condensed',sans-serif;letter-spacing:-.05em;pointer-events:none}
+.support-hero .container{position:relative;z-index:1;padding:105px 0 92px}
+.support-hero h1{font-size:clamp(70px,10vw,134px);max-width:950px;margin:24px 0}
+.support-hero h1 span{color:var(--acid)}
+.support-hero .lead{max-width:670px}
+.support-hero .hero-micro{display:flex;flex-wrap:wrap;gap:10px;margin-top:31px}
+.support-hero .hero-micro span{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;border:1px solid #485c3a;background:rgba(30,46,28,.65);padding:8px 11px;color:#d2ddc8}
+.support-subnav{position:relative;z-index:1;background:#121914;border-bottom:1px solid var(--line)}
+.support-subnav .container{display:flex;gap:6px;flex-wrap:wrap;padding:11px 0}
+.support-subnav a{font:700 15px 'Barlow Condensed',sans-serif;letter-spacing:.12em;text-transform:uppercase;padding:10px 13px;color:#c1cbb9}
+.support-subnav a:hover,.support-subnav a:focus-visible{color:var(--acid);background:#233024}
+.support-lead{max-width:720px}
+.staff-label{display:block;color:var(--acid);text-transform:uppercase;font-size:11px;letter-spacing:.16em;font-weight:700;margin-bottom:11px}
+.staff-roster{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin-top:30px}
+.staff-person{display:flex;gap:23px;align-items:center;background:linear-gradient(130deg,#1b271c,#111713);border:1px solid #3c4b39;padding:30px;min-width:0}
+.staff-emblem{width:87px;height:87px;flex:none;border:2px solid #8fae67;display:grid;place-items:center;color:#d6edab;background:radial-gradient(circle at 60% 25%,#3c5333,#1a281c);font:800 57px 'Barlow Condensed',sans-serif;transform:rotate(-2deg)}
+.staff-role{font-size:11px;color:var(--acid);font-weight:700;letter-spacing:.13em;text-transform:uppercase}
+.staff-person h3{font-size:38px;margin:9px 0 9px}
+.staff-person p{margin-bottom:0;font-size:14px}
+.staff-empty{border:1px solid var(--line);padding:22px;grid-column:1/-1}
+.staff-side-note{color:#a4b2a1;font-size:13px;margin-top:20px}
+.help-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:32px}
+.help-card{background:var(--panel);border:1px solid #344334;padding:29px;position:relative}
+.help-card:before{content:'';position:absolute;top:0;left:0;height:3px;width:44px;background:var(--acid)}
+.help-num{font:800 28px 'Barlow Condensed',sans-serif;color:var(--acid);letter-spacing:.05em}
+.help-card h3{font-size:31px;margin:18px 0 10px}
+.help-card p{font-size:14px;line-height:1.75;margin-bottom:0}
+.help-card ul{color:#b6c3b4;padding-left:19px;font-size:14px;margin:13px 0 0}
+.help-card li{margin:6px 0}
+.support-process{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:start;margin-top:30px}
+.support-steps{display:grid;gap:13px;list-style:none;padding:0;margin:0}
+.support-steps li{display:flex;gap:16px;padding:16px;border:1px solid #314030;background:#141c15;align-items:start}
+.support-steps .step-count{flex:none;width:35px;height:35px;display:grid;place-items:center;color:var(--acid);border:1px solid #526d40;font:800 22px 'Barlow Condensed',sans-serif}
+.support-steps strong{display:block;color:#f0f4ec;font-size:15px;margin-bottom:3px}
+.support-steps span:last-child{font-size:13px;color:#aebaaa}
+.support-template{padding:27px;background:linear-gradient(155deg,#212d1f,#121914);border:1px solid #506044}
+.support-template h3{font-size:29px}
+.support-template .label-stack{font:700 12px 'DM Sans',sans-serif;color:#bfcda9;letter-spacing:.08em;text-transform:uppercase;line-height:2.2;margin:14px 0 23px}
+.support-template .button{width:100%}
+.support-policy{border-left:3px solid var(--warm);padding:22px 24px;background:#211b14;color:#e1ccb4;margin-top:30px}
+.support-policy strong{display:block;text-transform:uppercase;letter-spacing:.09em;font-size:12px;color:#efd1a0;margin-bottom:7px}
+.support-policy p{color:#dbc6b2;font-size:14px;margin:0}
+.support-cta{border:1px solid #4f6441;display:grid;grid-template-columns:1fr auto;align-items:center;gap:26px;background:linear-gradient(105deg,#27381f,#15231a 60%,#111713);padding:40px;margin-top:35px}
+.support-cta h3{font-size:42px;margin-bottom:9px}
+.support-cta p{font-size:14px;max-width:600px;margin:0}
+.support-cta .button{white-space:nowrap}
+.support-cta #staff-discord-note{margin-top:10px;font-size:12px;color:#abbba0}
+.staff-faq{display:grid;gap:11px;margin-top:28px}
+.staff-faq details{border:1px solid #3b4836;background:#131a15}
+.staff-faq summary{padding:19px 23px;cursor:pointer;position:relative;list-style:none;color:#e4ebdd;font:700 22px 'Barlow Condensed',sans-serif;letter-spacing:.035em}
+.staff-faq summary::-webkit-details-marker{display:none}
+.staff-faq summary:after{content:'+';position:absolute;right:20px;color:var(--acid);font-size:28px;top:11px}
+.staff-faq details[open] summary:after{content:'−'}
+.staff-faq details[open] summary{border-bottom:1px solid #374635}
+.staff-faq p{font-size:14px;margin:0;padding:18px 23px;color:#bbc8b5}
+.staff-faq a{color:var(--acid);text-decoration:underline;text-underline-offset:4px}
+.staff-final{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid var(--line);padding-top:25px;margin-top:30px;color:#9eac99;font-size:13px}
+.staff-final a{color:var(--acid);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1000px){.support-process{grid-template-columns:1fr}.support-cta{grid-template-columns:1fr}.support-cta .button{justify-self:start}.staff-roster{grid-template-columns:1fr}}
+@media(max-width:680px){.support-hero{min-height:0}.support-hero .container{padding:75px 0}.support-hero h1{font-size:clamp(65px,16vw,105px)}.staff-roster,.help-grid{grid-template-columns:1fr}.support-hero .actions .button{width:100%}.staff-person{padding:21px;gap:18px}.staff-person h3{font-size:33px}.staff-emblem{height:67px;width:67px;font-size:43px}.help-card{padding:23px}.support-cta{padding:25px}.support-cta .button{width:100%}.support-steps li{padding:15px}.support-template{padding:24px}.support-subnav .container{gap:0}.support-subnav a{font-size:13px;padding:10px 9px}}

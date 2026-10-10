@@ -58,3 +58,11 @@
 @media (min-width:681px) and (max-width:800px) {.nav-wrap{flex-wrap:wrap;padding:14px 0}.nav-list{justify-content:flex-start;flex-wrap:wrap;gap:16px}.nav-wrap nav{width:100%}}
 @media (max-width:900px) {.news-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.news-archive-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:680px) {.news-hero .container{padding-top:75px;padding-bottom:65px}.news-home{padding:65px 0}.news-hero-tags{gap:10px}.news-hero-tags span{font-size:10px}.news-cards,.news-archive-cards{grid-template-columns:1fr}.news-archive-cards .news-card h3{font-size:30px}.news-controls{grid-template-columns:1fr}.upcoming-event{grid-template-columns:1fr;gap:12px}.upcoming-date{text-align:left;border-right:0;border-bottom:1px solid #4c6241;padding:0 0 10px}.upcoming-date span{display:inline;margin-left:8px}.news-section-heading .button{margin-top:18px}.news-event-section{padding:60px 0}}
+
+/* More navigation items: keep Staff & Support and News usable on medium displays. */
+@media (min-width:681px) and (max-width:1120px) {
+  .site-header .nav-wrap {flex-wrap:wrap;padding:13px 0;gap:9px}
+  .site-header .nav-wrap nav {width:100%}
+  .site-header .nav-list {justify-content:flex-start;flex-wrap:wrap;gap:9px 20px}
+  .site-header .nav-link {font-size:15px}
+}
