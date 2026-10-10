@@ -9,14 +9,18 @@
     image.onload = () => { el.style.backgroundImage = `url("${url}")`; el.classList.add('has-photo'); };
     image.src = url;
   });
-  const destinations = { discord: settings.discordInvite, support: settings.supportLink };
-  Object.entries(destinations).forEach(([key, url]) => {
-    document.querySelectorAll(`[data-link="${key}"]`).forEach(el => {
-      if (typeof url === 'string' && /^https:\/\//i.test(url)) {
-        el.href = url; el.target = '_blank'; el.rel = 'noopener noreferrer';
-        el.classList.remove('hide');
-      } else { el.classList.add('hide'); }
-    });
+  // Keep the normal community invite. Route all existing Support buttons
+  // to the new informational page, not directly to an external checkout.
+  document.querySelectorAll('[data-link="discord"]').forEach(el => {
+    const url = settings.discordInvite;
+    if (typeof url === 'string' && /^https:\/\//i.test(url)) {
+      el.href = url; el.target = '_blank'; el.rel = 'noopener noreferrer';
+      el.classList.remove('hide');
+    } else { el.classList.add('hide'); }
+  });
+  document.querySelectorAll('[data-link="support"]').forEach(el => {
+    el.href = 'support.html'; el.removeAttribute('target'); el.removeAttribute('rel');
+    el.classList.remove('hide');
   });
   const addr = { deerisle: settings.deerIsleAddress, badlands: settings.badlandsAddress };
   Object.entries(addr).forEach(([key, value]) => {
@@ -76,6 +80,28 @@
     const heading = group.querySelector('h3');
     if (heading && heading.textContent.trim().toUpperCase() === 'COMMUNITY' && !group.querySelector('a[href="staff.html"]')) {
       const link = document.createElement('a'); link.href='staff.html'; link.textContent='Staff & Support';
+      heading.after(link);
+    }
+  });
+  // A single Support link appears across all pages, including older guides.
+  if (!document.querySelector('link[href="support-nav.css"]')) {
+    const navStyles = document.createElement('link');
+    navStyles.rel = 'stylesheet'; navStyles.href = 'support-nav.css';
+    document.head.appendChild(navStyles);
+  }
+  if (mainNav && !mainNav.querySelector('a[href="support.html"]')) {
+    const item = document.createElement('li');
+    const link = document.createElement('a');
+    link.className = 'nav-link'; link.href = 'support.html'; link.textContent = 'Support Us';
+    if (window.location.pathname.endsWith('/support.html')) link.setAttribute('aria-current','page');
+    item.appendChild(link);
+    const discordLink = mainNav.querySelector('[data-link="discord"]');
+    mainNav.insertBefore(item, discordLink ? discordLink.closest('li') : null);
+  }
+  document.querySelectorAll('.footer-grid > div').forEach(group => {
+    const heading = group.querySelector('h3');
+    if (heading && heading.textContent.trim().toUpperCase() === 'COMMUNITY' && !group.querySelector('a[href="support.html"]')) {
+      const link = document.createElement('a'); link.href='support.html'; link.textContent='Support the Servers';
       heading.after(link);
     }
   });

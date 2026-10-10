@@ -1,0 +1,20 @@
+/* Beyond the Outbreak: responsive navigation for all community pages. */
+@media(min-width:1301px) {
+  .site-header .nav-list {gap:13px;}
+  .site-header .nav-link {font-size:15px;letter-spacing:.045em;}
+  .site-header .nav-cta {padding:9px 11px;}
+}
+@media(max-width:1300px) {
+  .nav-toggle {display:block;}
+  .nav-list {
+    display:none;position:absolute;top:80px;left:0;right:0;z-index:70;
+    background:#0d130e;border-bottom:1px solid var(--line);
+    padding:14px max(24px,calc((100vw - 1200px)/2)) 25px;
+    flex-direction:column;align-items:stretch;gap:0;
+  }
+  .nav-list.open {display:flex;}
+  .nav-list li {border-bottom:1px solid #283128;}
+  .nav-link {display:block;padding:12px 10px;font-size:20px;}
+  .nav-cta {margin:9px 0 0;text-align:center;}
+}
+@media(max-width:680px){.nav-list{top:70px;padding:12px 20px 24px;}}
