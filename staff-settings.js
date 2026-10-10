@@ -1,12 +1,10 @@
 /* BEYOND THE OUTBREAK — STAFF & SUPPORT SETTINGS
-   Edit names, roles, and descriptions between quotation marks.
+   Edit names, roles, descriptions, and avatar paths between quotation marks.
    Add new staff as separate objects inside the members array.
    ticketChannelUrl links directly to the official Ticket Tool panel message.
-   Keep the link current if you move or recreate the ticket panel.
-   The main Join Discord navigation link remains available for new members.
 
-   Example new staff member:
-   { name: "StaffMember", role: "Moderator", description: "Helps players with reports and questions." },
+   To use an avatar for a staff member, add:
+   avatar: "assets/photos/example.png"
 */
 window.BTO_STAFF = {
   ticketChannelUrl: "https://discord.com/channels/1416815404197609584/1492335999886557256/1492336211581210785",
@@ -14,7 +12,8 @@ window.BTO_STAFF = {
     {
       name: "Respawn",
       role: "Owner / Server Administration",
-      description: "Oversees Beyond the Outbreak, server operations, and community direction."
+      description: "Oversees Beyond the Outbreak, server operations, and community direction.",
+      avatar: "assets/photos/respawn-avatar.png"
     }
   ]
 };

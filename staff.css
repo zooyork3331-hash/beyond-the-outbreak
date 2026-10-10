@@ -61,3 +61,6 @@
 .staff-final a{color:var(--acid);text-decoration:underline;text-underline-offset:4px}
 @media(max-width:1000px){.support-process{grid-template-columns:1fr}.support-cta{grid-template-columns:1fr}.support-cta .button{justify-self:start}.staff-roster{grid-template-columns:1fr}}
 @media(max-width:680px){.support-hero{min-height:0}.support-hero .container{padding:75px 0}.support-hero h1{font-size:clamp(65px,16vw,105px)}.staff-roster,.help-grid{grid-template-columns:1fr}.support-hero .actions .button{width:100%}.staff-person{padding:21px;gap:18px}.staff-person h3{font-size:33px}.staff-emblem{height:67px;width:67px;font-size:43px}.help-card{padding:23px}.support-cta{padding:25px}.support-cta .button{width:100%}.support-steps li{padding:15px}.support-template{padding:24px}.support-subnav .container{gap:0}.support-subnav a{font-size:13px;padding:10px 9px}}
+
+.staff-avatar{object-fit:cover;padding:0;background:#111713;transform:none;display:block}
+.staff-avatar.staff-emblem{font-size:0}
