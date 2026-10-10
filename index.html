@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Beyond the Outbreak | DayZ</title>
   <style>
+    * { box-sizing: border-box; }
+
     body {
       margin: 0;
       background: #101411;
@@ -13,15 +15,19 @@
       font-family: Arial, sans-serif;
       text-align: center;
     }
+
     header {
       padding: 90px 20px;
-      background: linear-gradient(#202b23, #101411);
+      background: linear-gradient(#263329, #101411);
     }
+
     h1 {
       font-size: clamp(32px, 6vw, 64px);
       letter-spacing: 3px;
     }
+
     p { color: #b7beb7; }
+
     .button {
       display: inline-block;
       padding: 14px 25px;
@@ -32,43 +38,82 @@
       font-weight: bold;
       border-radius: 5px;
     }
+
     section { padding: 45px 20px; }
+
     .card {
       background: #1d251f;
       margin: 15px auto;
-      padding: 24px;
+      padding: 30px;
+      border: 1px solid #394737;
       border-radius: 8px;
       max-width: 500px;
     }
+
+    .status {
+      color: #a0c46c;
+      font-weight: bold;
+    }
+
+    .coming-soon { color: #d9ab65; }
+
+    footer {
+      padding: 25px;
+      background: #0b0e0c;
+      color: #858d85;
+      font-size: 14px;
+    }
   </style>
 </head>
+
 <body>
   <header>
     <h1>BEYOND THE OUTBREAK</h1>
     <p>Survive. Adapt. Overcome.</p>
-    <a class="button" href="#servers">Our Servers</a>
+    <a class="button" href="#servers">
+      Explore Our Servers
+    </a>
   </header>
 
   <section id="servers">
     <h2>OUR DAYZ SERVERS</h2>
+    <p>Two worlds. One community.</p>
+
     <div class="card">
-      <h3>Deer Isle</h3>
-      <p>PVE Survival Experience</p>
+      <h2>DEER ISLE</h2>
+      <p>Immersive PvE Survival Experience</p>
+      <p class="status">● ACTIVE SERVER</p>
+      <p>
+        Explore Deer Isle, build your base,
+        survive hostile environments, and
+        join a growing survivor community.
+      </p>
     </div>
+
     <div class="card">
-      <h3>Pripyat</h3>
-      <p>Hardcore Survival</p>
-    </div>
-    <div class="card">
-      <h3>Swans Island</h3>
-      <p>Vanilla-Style PVP</p>
+      <h2>BADLANDS DLC</h2>
+      <p>A New Survival Experience</p>
+      <p class="coming-soon">● COMING SOON</p>
+      <p>
+        A new chapter of Beyond the Outbreak
+        is on the horizon. Prepare for new
+        terrain, new challenges, and survival.
+      </p>
     </div>
   </section>
 
-  <section>
-    <h2>JOIN THE COMMUNITY</h2>
-    <p>Connect with survivors and stay updated.</p>
-    <p>Add your Discord invite link here.</p>
+  <section id="community">
+    <h2>JOIN OUR COMMUNITY</h2>
+    <p>
+      Stay informed about server updates,
+      events, announcements, and more.
+    </p>
+    <p>Discord invitation link coming soon.</p>
   </section>
+
+  <footer>
+    © 2026 Beyond the Outbreak.
+    Unofficial DayZ Community.
+  </footer>
 </body>
 </html>
