@@ -1,0 +1,22 @@
+/* Beyond the Outbreak — Live server activity (GAMEMONITORING hosted banners) */
+.bto-live-section{background:radial-gradient(ellipse at 80% 100%,rgba(95,116,50,.09),transparent 48%),#101711}
+.bto-live-section-header{margin-bottom:26px}
+.bto-live-section-header .section-intro p{max-width:640px}
+.bto-live-widget{background:linear-gradient(130deg,#1a271b,#0e1710);border:1px solid #526243;padding:24px;max-width:760px}
+.bto-live-widget-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;padding-bottom:16px;border-bottom:1px solid #354434;color:#dfe9d8;font:700 13px 'Barlow Condensed',Arial,sans-serif;letter-spacing:.12em}
+.bto-live-signal{color:var(--acid, #b7cc70);font-size:12px;white-space:nowrap;letter-spacing:.08em}
+.bto-live-image-link{display:flex;align-items:center;justify-content:center;min-height:120px;max-width:100%;padding:18px 0;text-decoration:none}
+.bto-live-image{display:block;height:auto;width:100%;max-width:560px;object-fit:contain}
+.bto-live-footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;border-top:1px solid #354434;padding-top:13px;font-size:12px;color:#99ab96}
+.bto-live-footer a,.bto-live-unavailable a{color:var(--acid,#bfd283);text-decoration:underline;text-underline-offset:3px}
+.bto-live-unavailable{font-size:13px;color:#e4ceb0;padding:18px 0}
+.bto-live-unavailable[hidden]{display:none}
+.bto-live-widget.is-unavailable .bto-live-image-link{display:none}
+/* Narrow server-intel card: use a taller third-party banner for legible data. */
+.specs .bto-live-widget{padding:16px 13px;margin-top:24px;max-width:none}
+.specs .bto-live-widget-top{font-size:11px}
+.specs .bto-live-signal{font-size:10px}
+.specs .bto-live-image-link{padding:14px 0;min-height:125px}
+.specs .bto-live-image{width:160px;max-width:100%;height:auto}
+.specs .bto-live-footer{font-size:11px}
+@media(max-width:680px){.bto-live-widget{padding:18px}.bto-live-section-header{margin-bottom:20px}.bto-live-widget-top{font-size:12px}.bto-live-image-link{min-height:90px}.specs .bto-live-image-link{min-height:120px}}
