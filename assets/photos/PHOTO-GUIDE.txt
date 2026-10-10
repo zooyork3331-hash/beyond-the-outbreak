@@ -1,0 +1,22 @@
+BEYOND THE OUTBREAK — ADDING YOUR OWN SCREENSHOTS
+
+Upload JPG photos to this same folder with these EXACT names:
+
+home-hero.jpg       = Home + Rules page background
+
+deerisle-cover.jpg = Deer Isle card on home page
+deerisle-hero.jpg  = Deer Isle page background
+deerisle-1.jpg     = Deer Isle gallery photo 1
+deerisle-2.jpg     = Deer Isle gallery photo 2
+deerisle-3.jpg     = Deer Isle gallery photo 3
+
+badlands-cover.jpg  = Badlands card on home page
+badlands-hero.jpg   = Badlands page background
+badlands-1.jpg      = Badlands gallery photo 1
+badlands-2.jpg      = Badlands gallery photo 2
+badlands-3.jpg      = Badlands gallery photo 3
+
+All images are optional. Without them, the website displays a built-in
+placeholder. Use correctly named .jpg images. Recommended: 1920x1080
+for backgrounds/covers and 1200x800 for gallery. The site will automatically
+display the image once GitHub Pages publishes the uploaded file.
