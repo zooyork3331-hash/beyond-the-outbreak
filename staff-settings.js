@@ -1,10 +1,8 @@
-/* BEYOND THE OUTBREAK — STAFF & SUPPORT SETTINGS
-   Edit names, roles, descriptions, and avatar paths between quotation marks.
-   Add new staff as separate objects inside the members array.
-   ticketChannelUrl links directly to the official Ticket Tool panel message.
-
-   To use an avatar for a staff member, add:
-   avatar: "assets/photos/example.png"
+/* BEYOND THE OUTBREAK — STAFF DIRECTORY
+   Edit names, roles, descriptions, and profile images below.
+   To add an avatar, upload it to assets/photos/ and add an avatar property:
+   avatar: "assets/photos/name.png"
+   The Discord Ticket Tool link and Respawn's current avatar are preserved.
 */
 window.BTO_STAFF = {
   ticketChannelUrl: "https://discord.com/channels/1416815404197609584/1492335999886557256/1492336211581210785",
@@ -14,6 +12,26 @@ window.BTO_STAFF = {
       role: "Owner / Server Administration",
       description: "Oversees Beyond the Outbreak, server operations, and community direction.",
       avatar: "assets/photos/respawn-avatar.png"
+    },
+    {
+      name: "Delulu",
+      role: "Owner",
+      description: "Beyond the Outbreak server owner."
+    },
+    {
+      name: "OhhKayy",
+      role: "Administrator",
+      description: "Beyond the Outbreak administration team."
+    },
+    {
+      name: "Randarium Oryx",
+      role: "Administrator",
+      description: "Beyond the Outbreak administration team."
+    },
+    {
+      name: "Toker",
+      role: "Administrator",
+      description: "Beyond the Outbreak administration team."
     }
   ]
 };
