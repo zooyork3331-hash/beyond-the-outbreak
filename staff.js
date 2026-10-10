@@ -18,7 +18,7 @@
   });
   const note = document.querySelector('#staff-discord-note');
   if (note) note.textContent = directTickets
-    ? 'This button opens the configured Discord ticket channel. Follow the channel instructions to contact staff.'
+    ? 'This button opens our Ticket Tool panel message in Discord. If you have not joined yet, use Join Discord in the top menu first. Then select the ticket option on the panel.'
     : 'Open our Discord and use the support method listed there. A direct ticket-channel link has not been configured.';
 
   const roster = document.getElementById('staff-roster');
