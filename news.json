@@ -1,0 +1,46 @@
+[
+  {
+    "id": "news-hub",
+    "date": "2026-10-10",
+    "category": "Announcement",
+    "server": "All Servers",
+    "title": "News & Events Headquarters Is Live",
+    "summary": "Your new HQ for Beyond the Outbreak updates, server announcements, event schedules, and patch notes.",
+    "content": "Welcome to the Beyond the Outbreak News & Events hub. This is where community announcements, scheduled events, maintenance notices, and patch notes will be published.\n\nFor discussion and player support, join our Discord community.",
+    "link": "https://discord.gg/fExaxbAFyr",
+    "linkText": "Join our Discord"
+  },
+  {
+    "id": "deerisle-field-guide",
+    "date": "2026-10-10",
+    "category": "Guide",
+    "server": "Deer Isle",
+    "title": "Deer Isle Field Guide Is Available",
+    "summary": "Find survival advice for dangerous AI encounters, medical systems, blood types, house materials, and more.",
+    "content": "The Deer Isle Tips & Tricks resource includes Terje medicine and skills references, an AI detection radio guide, blood compatibility, House A–G and RaG Hunting Cabin build costs, and survival advice for new players.\n\nVisit the complete field guide before your next run.",
+    "link": "deerisle-tips.html",
+    "linkText": "Open the Deer Isle guide"
+  },
+  {
+    "id": "universal-rulebook",
+    "date": "2026-10-10",
+    "category": "Announcement",
+    "server": "All Servers",
+    "title": "One Rulebook for Every Server",
+    "summary": "The official Beyond the Outbreak rules are now organized in one place for Deer Isle and Badlands.",
+    "content": "Both Deer Isle and Badlands use the same community-wide rulebook. Please review the full rules before joining.\n\nPlayers must also react to the final rules message in Discord to acknowledge they have read the current rules.",
+    "link": "rules.html",
+    "linkText": "Read the universal rules"
+  },
+  {
+    "id": "badlands-watch",
+    "date": "2026-10-10",
+    "category": "Announcement",
+    "server": "Badlands",
+    "title": "Badlands Information Coming Soon",
+    "summary": "The Badlands server page is ready for future news. No launch date has been announced here.",
+    "content": "The Badlands area of the site is reserved for future server details, separate survival tips, and announcements as plans are confirmed.\n\nWatch the News & Events page and Discord for new information.",
+    "link": "badlands.html",
+    "linkText": "Explore the Badlands page"
+  }
+]

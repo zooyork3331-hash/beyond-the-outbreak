@@ -38,6 +38,30 @@
       });
     });
   });
+  // Global News & Events navigation added automatically on all existing pages.
+  // Keeps the original page HTML unchanged (important for the existing custom guides).
+  if (!document.querySelector('link[href="news.css"]')) {
+    const css = document.createElement('link');
+    css.rel = 'stylesheet'; css.href = 'news.css';
+    document.head.appendChild(css);
+  }
+  const mainNav = document.querySelector('.nav-list');
+  if (mainNav && !mainNav.querySelector('a[href="news.html"]')) {
+    const item = document.createElement('li');
+    const link = document.createElement('a');
+    link.className = 'nav-link'; link.href = 'news.html'; link.textContent = 'News & Events';
+    if (window.location.pathname.endsWith('/news.html')) link.setAttribute('aria-current','page');
+    item.appendChild(link);
+    const discord = mainNav.querySelector('[data-link="discord"]');
+    mainNav.insertBefore(item, discord && discord.closest('li') || null);
+  }
+  document.querySelectorAll('.footer-grid > div').forEach(group => {
+    const heading = group.querySelector('h3');
+    if (heading && heading.textContent.trim().toUpperCase() === 'COMMUNITY' && !group.querySelector('a[href="news.html"]')) {
+      const link = document.createElement('a'); link.href='news.html'; link.textContent='News & Events';
+      heading.after(link);
+    }
+  });
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.nav-list');
   if (toggle && nav) {
