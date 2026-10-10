@@ -1,0 +1,30 @@
+
+name: Publish Website News to Discord
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - news.json
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    name: Post new announcements and events
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website and its history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Send new website posts to Discord
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          DISCORD_ANNOUNCEMENTS_WEBHOOK: ${{ secrets.DISCORD_ANNOUNCEMENTS_WEBHOOK }}
+          DISCORD_EVENTS_WEBHOOK: ${{ secrets.DISCORD_EVENTS_WEBHOOK }}
+        run: python3 scripts/post_news_to_discord.py
