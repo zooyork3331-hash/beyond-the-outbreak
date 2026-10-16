@@ -1,9 +1,9 @@
-/* Badlands scheduled launch countdown — time is fixed to Oct 16 2026, 8:00 PM EDT. */
+/* Badlands scheduled launch countdown — time is fixed to Oct 17 2026, 8:00 PM EDT. */
 (() => {
   const clock = document.querySelector('[data-badlands-countdown]');
   if (!clock) return;
-  // 8 PM EDT on October 16 equals 00:00 UTC on October 17.
-  const launchAt = Date.parse('2026-10-17T00:00:00Z');
+  // 8 PM EDT on October 17 equals 00:00 UTC on October 18.
+  const launchAt = Date.parse('2026-10-18T00:00:00Z');
   const note = document.getElementById('bl-countdown-note');
   const target = {
     days: clock.querySelector('[data-bl-unit="days"]'),
