@@ -1,17 +1,42 @@
 [
   {
+    "id": "nasdara-badlands-rescheduled-oct17-2026",
+    "date": "2026-10-15",
+    "category": "Event",
+    "server": "Badlands",
+    "title": "SCHEDULE UPDATE — NASDARA OPENS OCTOBER 17",
+    "summary": "Nasdara (Badlands DLC) opening has moved to Saturday, October 17 at 8:00 PM Eastern.",
+    "content": "SCHEDULE CHANGE — NASDARA (BADLANDS DLC)\n\nOur Nasdara server is now scheduled to launch Saturday, October 17, 2026 at 8:00 PM Eastern Time (EDT), instead of October 16.\n\nPlease watch the updated launch countdown and our Discord for confirmed availability and connection details.\n\n— Beyond the Outbreak Administration",
+    "eventDate": "2026-10-17",
+    "eventTime": "8:00 PM Eastern (EDT)",
+    "location": "Nasdara — Badlands DLC",
+    "link": "badlands.html",
+    "linkText": "View Nasdara Launch"
+  },
+  {
+    "id": "deerisle-130-reopening-oct16-2026",
+    "date": "2026-10-15",
+    "category": "Announcement",
+    "server": "Deer Isle",
+    "title": "DEER ISLE RETURNS — OCTOBER 16 AT 8 PM ET",
+    "summary": "DayZ 1.30 server maintenance is scheduled to be completed and Deer Isle back online Friday, October 16 at 8:00 PM Eastern.",
+    "content": "DEER ISLE — DAYZ 1.30 UPDATE\n\nThe Deer Isle wipe and update work is underway. Our planned completion and reopening time is Friday, October 16, 2026 at 8:00 PM Eastern Time (EDT).\n\nPlease watch Discord for our confirmation when the server is online and ready to join. We appreciate your patience!\n\n— Beyond the Outbreak Administration",
+    "link": "deerisle.html",
+    "linkText": "View Deer Isle"
+  },
+  {
     "id": "badlands-opening-day-2026-10-16",
     "date": "2026-10-10",
     "category": "Event",
     "server": "Badlands",
-    "title": "BADLANDS GRAND OPENING — OCTOBER 16",
-    "summary": "The gates to Badlands open Friday, October 16 at 8:00 PM Eastern Time! Be there for the launch of our newest DayZ server (delay expected).",
-    "content": "SURVIVORS, THE WAIT IS ALMOST OVER!\n\nBeyond the Outbreak is opening the gates to our brand-new Badlands server on Friday, October 16, 2026, at 8:00 PM Eastern Time (EDT).\n\nA new map. A new beginning. A fresh chance to carve out your place in the wasteland. Whether you are a veteran of Beyond the Outbreak or joining us for the first time, we want to see you there for opening night.\n\nThe server is scheduled to go live at 8:00 PM. Keep an eye on our Discord and Badlands server page for connection details and any launch updates.\n\nSurvive. Adapt. Overcome.\n— Beyond the Outbreak Administration",
-    "eventDate": "2026-10-16",
+    "title": "NASDARA (BADLANDS DLC) GRAND OPENING — OCTOBER 17",
+    "summary": "Updated opening date: Nasdara, the Badlands DLC map, launches Saturday, October 17 at 8:00 PM Eastern Time.",
+    "content": "UPDATED OPENING SCHEDULE\n\nNasdara, the map included with the Badlands DLC, is now scheduled to open on Saturday, October 17, 2026, at 8:00 PM Eastern Time (EDT).\n\nThe previous Friday, October 16 opening has been rescheduled. Follow our Discord and website for confirmed connection details and launch notices.\n\nSurvive. Adapt. Overcome.\n— Beyond the Outbreak Administration",
+    "eventDate": "2026-10-17",
     "eventTime": "8:00 PM Eastern (EDT)",
-    "location": "Badlands DayZ Server",
+    "location": "Nasdara — Badlands DLC server",
     "link": "badlands.html",
-    "linkText": "Explore Badlands"
+    "linkText": "Explore Nasdara"
   },
   {
     "id": "deerisle-130-wipe-discord-2026-10-15",
@@ -19,8 +44,8 @@
     "category": "Announcement",
     "server": "Deer Isle",
     "title": "Deer Isle Wipe — October 15 at 4:30 PM ET",
-    "summary": "Deer Isle is scheduled for a wipe on October 15, 2026, at 4:30 PM Eastern Time for the DayZ 1.30 update.",
-    "content": "Attention, survivors!\n\nThe Beyond the Outbreak Deer Isle server is scheduled for a wipe on Thursday, October 15, 2026, at 4:30 PM Eastern Time (EDT), in preparation for the DayZ 1.30 update.\n\nPlease plan accordingly and expect downtime while the wipe and update are carried out. We'll announce when the server is ready for players to return.\n\nThank you for being part of Beyond the Outbreak. See you on the other side!",
+    "summary": "DayZ 1.30 wipe and maintenance began October 15. Deer Isle is scheduled to return Friday, October 16 at 8:00 PM Eastern.",
+    "content": "DayZ 1.30 update schedule:\n\nDeer Isle wipe and maintenance began Thursday, October 15.\n\nThe server is scheduled to be completed and back online Friday, October 16, 2026, at 8:00 PM Eastern Time (EDT).\n\nPlease watch Discord for confirmation that the server is available. Thank you for your patience.",
     "link": "deerisle.html",
     "linkText": "View Deer Isle Server"
   },
@@ -62,10 +87,10 @@
     "date": "2026-10-10",
     "category": "Announcement",
     "server": "Badlands",
-    "title": "Badlands Opening Date Confirmed",
-    "summary": "The Badlands server launches Friday, October 16, 2026 at 8:00 PM Eastern Time. Opening day is officially on the calendar!",
-    "content": "The countdown to Badlands is on! Beyond the Outbreak will open its Badlands server Friday, October 16, 2026, at 8:00 PM Eastern Time (EDT).\n\nVisit the News & Events page for full opening day details and follow our Discord for updates.",
+    "title": "Nasdara Opening Date Updated",
+    "summary": "The original October 16 date has been moved. Nasdara (Badlands DLC) is scheduled for Saturday, October 17, 2026 at 8:00 PM Eastern.",
+    "content": "Updated schedule: Beyond the Outbreak's Nasdara server (Badlands DLC) opens Saturday, October 17, 2026 at 8 PM Eastern (EDT). See the updated opening event and server page for details.",
     "link": "badlands.html",
-    "linkText": "Explore the Badlands page"
+    "linkText": "Explore Nasdara"
   }
 ]
