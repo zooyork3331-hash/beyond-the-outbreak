@@ -9,6 +9,6 @@ window.BTO_SETTINGS = {
   discordInvite: "https://discord.gg/fExaxbAFyr",                // Full Discord invite URL
   supportLink: "",                   // Optional external support/donation page
   deerIsleAddress: "45.59.162.14:2302",               // Example format: 12.34.56.78:2302
-  badlandsAddress: "",               // Leave blank until the server launches
+  badlandsAddress: "45.59.162.11:2491",               // Nasdara (Badlands DLC), PvE
   communityEmail: ""                 // Optional public contact email
 };
