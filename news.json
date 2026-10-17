@@ -1,5 +1,16 @@
 [
   {
+    "id": "nasdara-pve-officially-open-2026-10-17",
+    "date": "2026-10-17",
+    "category": "Announcement",
+    "server": "Badlands",
+    "title": "NASDARA IS NOW OPEN — PVE SURVIVAL IS LIVE!",
+    "summary": "Nasdara (Badlands DLC) is officially open! Join our PvE server at 45.59.162.11:2491. The 13-mod list and survival guide are available on our website.",
+    "content": "THE WAIT IS OVER — NASDARA IS OFFICIALLY OPEN!\n\nSurvivors, Beyond the Outbreak's Nasdara server is now LIVE and open to everyone!\n\nMAP: Nasdara (Badlands DLC)\nGAMEPLAY: PvE survival\nCONNECT: 45.59.162.11:2491\nMODS: 13 listed — use your DayZ launcher to set up the required DLC and mods.\n\nExplore the desert, search for water trucks, restore wells, prepare for sandstorms, manage heatstroke, and build your story in the Badlands. Our full Nasdara survival guide and mod directory are available on the website.\n\nDeer Isle remains in DayZ 1.30 BETA testing. We'll announce its transition to Alpha separately when it's ready.\n\nThank you to everyone for your patience and support during the launch. We can't wait to see you out there!\n\nSurvive. Adapt. Overcome.\n— Respawn / Beyond the Outbreak Administration",
+    "link": "badlands.html",
+    "linkText": "Join Nasdara Now"
+  },
+  {
     "id": "deerisle-dayz-130-beta-testing-2026-10-17",
     "date": "2026-10-17",
     "category": "Announcement",
@@ -37,12 +48,9 @@
     "date": "2026-10-10",
     "category": "Event",
     "server": "Badlands",
-    "title": "NASDARA (BADLANDS DLC) GRAND OPENING — OCTOBER 17",
-    "summary": "Updated opening date: Nasdara, the Badlands DLC map, launches Saturday, October 17 at 8:00 PM Eastern Time.",
-    "content": "UPDATED OPENING SCHEDULE\n\nNasdara, the map included with the Badlands DLC, is now scheduled to open on Saturday, October 17, 2026, at 8:00 PM Eastern Time (EDT).\n\nThe previous Friday, October 16 opening has been rescheduled. Follow our Discord and website for confirmed connection details and launch notices.\n\nSurvive. Adapt. Overcome.\n— Beyond the Outbreak Administration",
-    "eventDate": "2026-10-17",
-    "eventTime": "8:00 PM Eastern (EDT)",
-    "location": "Nasdara — Badlands DLC server",
+    "title": "NASDARA GRAND OPENING — OCTOBER 17 (COMPLETED)",
+    "summary": "Nasdara's October 17 grand opening has taken place. The PvE server is now open at 45.59.162.11:2491.",
+    "content": "Nasdara officially opened October 17, 2026. The server is now active and open for PvE survival at 45.59.162.11:2491. See the latest launch announcement for connection instructions.",
     "link": "badlands.html",
     "linkText": "Explore Nasdara"
   },
