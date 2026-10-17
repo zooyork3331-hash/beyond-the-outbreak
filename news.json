@@ -1,5 +1,16 @@
 [
   {
+    "id": "deerisle-dayz-130-beta-testing-2026-10-17",
+    "date": "2026-10-17",
+    "category": "Announcement",
+    "server": "Deer Isle",
+    "title": "DEER ISLE — DAYZ 1.30 BETA TESTING NOW",
+    "summary": "Deer Isle is currently in Beta on DayZ 1.30. Some mods and features may be broken. Play at your own risk; admin support is limited while fixes continue and Nasdara is prepared for tonight.",
+    "content": "SURVIVORS — DEER ISLE STATUS UPDATE\n\nDeer Isle is currently in BETA testing on DayZ 1.30. We are actively testing the server and waiting for mod creators to release their compatibility updates before we move into our next Alpha phase.\n\n⚠️ IMPORTANT: Some features, mods, and game systems are probably broken or unstable. If you choose to play during beta, you do so at your own risk.\n\n🛠️ ADMIN SUPPORT IS LIMITED: I am currently focusing on testing, troubleshooting, and fixing the server, while also preparing Nasdara for tonight's release. Please do not expect normal admin response times or automatic replacements during this testing period.\n\nThe Deer Isle mod directory has also been updated to reflect the current 53-mod lineup.\n\nThank you for your patience and understanding. Another official announcement will be posted when Alpha is ready to launch.\n\n— Respawn / Beyond the Outbreak Administration",
+    "link": "deerisle.html",
+    "linkText": "View Deer Isle Beta Status"
+  },
+  {
     "id": "nasdara-badlands-rescheduled-oct17-2026",
     "date": "2026-10-15",
     "category": "Event",
