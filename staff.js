@@ -60,7 +60,7 @@
   const copy = document.querySelector('[data-copy-report]');
   if (copy) copy.addEventListener('click', async () => {
     const template = `BEYOND THE OUTBREAK — SUPPORT REQUEST
-Server: Deer Isle / Badlands
+Server: Pripyat / Badlands
 Type: Player report / Bug / Lost items / Other
 In-game name(s):
 Approximate date & time (include timezone):
