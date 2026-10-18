@@ -22,7 +22,7 @@
     el.href = 'support.html'; el.removeAttribute('target'); el.removeAttribute('rel');
     el.classList.remove('hide');
   });
-  const addr = { deerisle: settings.deerIsleAddress, badlands: settings.badlandsAddress };
+  const addr = { pripyat: settings.pripyatAddress, badlands: settings.badlandsAddress };
   Object.entries(addr).forEach(([key, value]) => {
     const address = String(value || '').trim();
     document.querySelectorAll(`[data-address="${key}"]`).forEach(el => {
