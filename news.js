@@ -33,7 +33,7 @@
   };
   const validId = value => /^[a-z0-9-]+$/.test(value || '') ? value : '';
   const validCategory = value => ['Announcement','Event','Patch Notes','Maintenance','Guide'].includes(value) ? value : 'Announcement';
-  const validServer = value => ['All Servers','Deer Isle','Badlands'].includes(value) ? value : 'All Servers';
+  const validServer = value => ['All Servers','Pripyat','Deer Isle','Badlands'].includes(value) ? value : 'All Servers';
   const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
 
   function makeCard(post, compact) {
