@@ -1,5 +1,16 @@
 [
   {
+    "id": "pripyat-delta-server01-replaces-deerisle-2026-10-18",
+    "date": "2026-10-18",
+    "category": "Announcement",
+    "server": "Pripyat",
+    "title": "PRIPYAT DELTA REPLACES DEER ISLE — SERVER 01 UPDATE",
+    "summary": "Deer Isle has been retired and replaced with Pripyat Delta at 45.59.162.14:2302. Reactor 4 has a 1,000 m radiation hazard, and the black market is permanently gassed. View the new 19-mod list and Terje survival guides.",
+    "content": "SURVIVORS — SERVER 01 HAS MOVED TO PRIPYAT DELTA!\n\nDeer Isle is no longer our active Server 01 map. We have replaced it with Pripyat Delta while keeping the existing connection address:\n\nSERVER 01: PRIPYAT DELTA\nCONNECT: 45.59.162.14:2302\nMODS: 19 currently listed\n\n⚠️ REACTOR 4: A 1,000-meter area around Reactor 4 is radioactive. Enter with appropriate equipment and a dosimeter, and plan to decontaminate exposed gear.\n\n☣️ BLACK MARKET: Permanently gassed. Do not expect the contaminated area to clear. Bring appropriate protective gear before entering.\n\nOur updated website includes the Pripyat server page, a searchable 19-mod directory, and a new survival guide with the official Terje Radiation, Medicine, and Skills references.\n\nNasdara remains active as Server 02. Thank you for adapting with us — more Pripyat information will follow as we continue preparing the experience.\n\nSurvive. Adapt. Overcome.\n— Respawn / Beyond the Outbreak Administration",
+    "link": "pripyat.html",
+    "linkText": "Explore Pripyat Delta"
+  },
+  {
     "id": "nasdara-pve-officially-open-2026-10-17",
     "date": "2026-10-17",
     "category": "Announcement",
