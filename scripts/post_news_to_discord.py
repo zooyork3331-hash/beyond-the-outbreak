@@ -17,7 +17,7 @@ from pathlib import Path
 
 SITE_URL = "https://zooyork3331-hash.github.io/beyond-the-outbreak"
 CATEGORIES = {"Announcement", "Event", "Patch Notes", "Maintenance", "Guide"}
-SERVERS = {"All Servers", "Deer Isle", "Badlands"}
+SERVERS = {"All Servers", "Pripyat", "Deer Isle", "Badlands"}
 VALID_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 VALID_SHA = re.compile(r"^[0-9a-f]{40}$")
 
