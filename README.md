@@ -6,10 +6,10 @@ Welcome to Beyond the Outbreak, a DayZ gaming community dedicated to immersive s
 
 ## Our Servers
 
-### Deer Isle — PvE Survival
+### Pripyat — PvE Survival
 Explore, build, trade, and survive in a custom PvE environment designed for adventure and community interaction.
 
-### Badlands DLC — Coming Soon
+### Nasdara (Badlands DLC) — PvE
 A new survival experience is coming to Beyond the Outbreak. Stay tuned for announcements, server details, and upcoming features.
 
 ## Community
